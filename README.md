@@ -1,6 +1,8 @@
 # Stadium-nameplate
 Create nameplates in the style of stadium retired numbers signs
 
+![Alt text](47_Harley.png)
+
 This code is designed to create a nameplate in the style of retired player numbers as 
 shown in a football stadium.  No supports are needed in the printing, but you will need
 to change the filament half way through the name plate and the number plate.  Ideally, 
