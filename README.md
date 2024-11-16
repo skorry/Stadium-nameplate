@@ -28,6 +28,3 @@ And gray makes a good color for the stand.
 
 Of course, you can use any color choices you wish!
 
-Aside the number and name is the Name Length Modifier (nlm). It is designed to add space on 
-each side of the name so letters of a short name aren't stretched out too much.  This 
-modifier can be negative for use with very long names, but beyond about -12 is too much.
