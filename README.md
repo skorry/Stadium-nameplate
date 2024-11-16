@@ -21,6 +21,7 @@ to take place, and produce the gcode to print.
 ![Alt text](IMG_7183.png "Ohio Stadium")
 
 For Buckeye fans:
+
 The number is scarlet numbers on white background, so start printing with white.  
 The name is white letters on scarlet background, so start printing with scarlet.  
 And gray makes a good color for the stand.
