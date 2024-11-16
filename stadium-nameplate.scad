@@ -1,23 +1,8 @@
 use <BOSL/shapes.scad>
 $fn=256;
 
-// My best measurements put the height at 37 units, number section width at 45u
-// and name section w at 118u.  
-// So I decided to go with those sizes in mm: h=37, nw=45 and lw=118.
-// It makes an appropriately sized nameplate.
-
-// for calculation of vertical font position, we start with half of the height of the plate (ph/2) and 
-// subtract half of the font size (fh/2).  This should center it vertically in the base.
-
-// For Buckeye fans:
-// The number is red numbers on white background
-// The name is white letters on red background
-// And gray makes a good color for the stand
-
-// name length modifier (nlm) - adds space on each side of name so letters of a short name aren't stretched out. 
-// can be negative for very long names, but beyond about -12 is too long
-
-// modify for your number, name, and name length modifier:
+//
+// modify for your number, name, and name length modifier here:
 number="00"; name="YOUR NAME"; nlm=0;
 
 // some other examples:
@@ -31,11 +16,14 @@ number="00"; name="YOUR NAME"; nlm=0;
 //number="99"; name="WILLIS"; nlm=2;
 
 // The calling of the number, name, and stand modules - 
-// when only creating one, comment out the others:
+// when only creating one, comment out the other two:
 number();
 name();
 stand();
 
+//
+// Most people won't have need to alter anything below here
+//
 
 // dimensions
 ph=37;  // plate height
