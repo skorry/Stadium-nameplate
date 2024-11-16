@@ -5,6 +5,10 @@ $fn=256;
 // modify for your number, name, and name length modifier here:
 number="00"; name="YOUR NAME"; nlm=0;
 
+// Note the Name Length Modifier (nlm). It is designed to add space on 
+// each side of the name so letters of a short name aren't stretched out too much.  This 
+// modifier can be negative for use with very long names, but beyond about -12 is too much.
+
 // some other examples:
 //number="10"; name="SMITH"; nlm=6;
 //number="22"; name="HORVATH"; nlm=0;
@@ -20,6 +24,10 @@ number="00"; name="YOUR NAME"; nlm=0;
 number();
 name();
 stand();
+
+// After printing the name and number, those plates are designed to fit together with the
+// pegs and their holes.  It's a tight fit, so you might need to sand them down a bit.  
+// Combined, the number and name plates should fit snugly into the stand.
 
 //
 // Most people won't have need to alter anything below here
