@@ -13,7 +13,7 @@ I did my best to match the dimensions of those in the stadium, and I believe I g
 pretty close with 37mm high by 163mm wide.  This size makes an appropriately sized nameplate.
 
 Unaltered, this file will produce an .stl file with the number 00, the name YOUR NAME, and
-a stand to hold the plate.  I recommend you change (below) to your desired number and name, 
+a stand to hold the plate.  I recommend you change to your desired number and name, 
 then comment out two of the three modules number(), name(), and stand() to create each .stl
 file one at a time.  Then use your preferred slicer to mark where the filament change needs 
 to take place, and produce the gcode to print.
