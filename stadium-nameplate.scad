@@ -148,10 +148,10 @@ module stand_tray()  // creates the part of the stand that holds the plates
     difference()
     {
         linear_extrude(9)
-        square([sw,ph-12]);
-        translate([2,1,4])
+        square([sw,ph-16]);
+        translate([1.8,1,4])
         linear_extrude(7)
-        square([pw,ph]);
+        square([pw+.4,ph]);
     }
 }
 
