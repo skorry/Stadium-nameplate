@@ -69,7 +69,7 @@ module dowel1()  // the peg sticking out from the number plate
 {
     translate([nw-2,(ph/3),3])
     rotate([0,90,0])
-    cylinder(4,2,2);
+    cylinder(4,1.9,1.9);  // making the peg slightly smaller than the hole
 }
 
 module dowel2()  // the hole in the number plate to hold the peg from the name plate
@@ -116,7 +116,7 @@ module dowel3()  // the peg sticking out from the name plate
 {
     translate([-2,(ph/3*2),3])
     rotate([0,90,0])
-    cylinder(4,2,2);
+    cylinder(4,1.9,1.9);  // making the peg slightly smaller than the hole
 }
 
 module dowel4()  // the hole in the name plate to hold the peg from the number plate
@@ -149,9 +149,9 @@ module stand_tray()  // creates the part of the stand that holds the plates
     {
         linear_extrude(9)
         square([sw,ph-16]);
-        translate([1.8,1,4])
+        translate([1.9,1,4])
         linear_extrude(7)
-        square([pw+.4,ph]);
+        square([pw+.2,ph]);  // making the space slightly wider than the plates
     }
 }
 
