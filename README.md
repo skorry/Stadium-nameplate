@@ -6,11 +6,10 @@ Create nameplates in the style of stadium retired numbers signs
 This code is designed to create a nameplate in the style of retired player numbers as 
 shown in a football stadium.  No supports are needed in the printing, but you will need
 to change the filament half way through the name plate and the number plate.  Ideally, 
-your printer will need to be able to respond to the M600 command (to change filament).  
-Not all printers have this by default, but can be added with a firmware update.
+your printer will need to be able to respond to the M600 command (to change filament).  Not all printers have this by default, but can be added with a firmware update.
 
 I did my best to match the dimensions of those in the stadium, and I believe I got it 
-pretty close with 37mm high by 163mm wide.  This size makes an appropriately sized nameplate.
+pretty close with 37mm high by 163mm wide (just under 6.5 inches wide).  This size makes an appropriately sized nameplate.
 
 Unaltered, this file will produce an .stl file with the number 00, the name YOUR NAME, and
 a stand to hold the plate.  I recommend you change to your desired number and name, 
